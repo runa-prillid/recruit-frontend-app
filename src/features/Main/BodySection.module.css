@@ -1,0 +1,34 @@
+.section {
+  flex: 1;
+}
+
+.display {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.body {
+  flex: 1;
+  background-color: var(--color-bg-light);
+  border-radius: 16px;
+  padding: 30px;
+  font-size: var(--font-body);
+  line-height: 1.8;
+  color: var(--color-text);
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: var(--font-caption);
+  margin-top: 4px;
+}
